@@ -1,0 +1,1734 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta property="og:type" content="website">
+<meta property="og:title" content="JX">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="JX">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="一个编程coder">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://example.com/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : true,
+    isPost : false,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>JX</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">JX</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">一个编程coder</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content index posts-expand">
+            
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/06/14/%E5%A4%A7%E6%95%B0%E6%8D%AEhadoop%203.x%20%E6%80%BB%E7%BB%93/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="一个编程coder">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="JX">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/06/14/%E5%A4%A7%E6%95%B0%E6%8D%AEhadoop%203.x%20%E6%80%BB%E7%BB%93/" class="post-title-link" itemprop="url">大数据hadoop 3.x 总结</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2021-06-14 14:37:00 / 修改时间：22:51:59" itemprop="dateCreated datePublished" datetime="2021-06-14T14:37:00+08:00">2021-06-14</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%A4%A7%E6%95%B0%E6%8D%AE/" itemprop="url" rel="index"><span itemprop="name">大数据</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><h3 id="01-大数据概论"><a href="#01-大数据概论" class="headerlink" title="01_大数据概论"></a>01_大数据概论</h3><h3 id="02-Hadoop（入门）V3-3"><a href="#02-Hadoop（入门）V3-3" class="headerlink" title="02_Hadoop（入门）V3.3"></a>02_Hadoop（入门）V3.3</h3><h3 id="03-Hadoop（HDFS）V3-3"><a href="#03-Hadoop（HDFS）V3-3" class="headerlink" title="03_Hadoop（HDFS）V3.3"></a>03_Hadoop（HDFS）V3.3</h3><h3 id="04-Hadoop（MapReduce）V3-3"><a href="#04-Hadoop（MapReduce）V3-3" class="headerlink" title="04_Hadoop（MapReduce）V3.3"></a>04_Hadoop（MapReduce）V3.3</h3><h3 id="05-Hadoop（Yarn）V3-3"><a href="#05-Hadoop（Yarn）V3-3" class="headerlink" title="05_Hadoop（Yarn）V3.3"></a>05_Hadoop（Yarn）V3.3</h3><h3 id="06-Hadoop（生产调优手册）V3-3"><a href="#06-Hadoop（生产调优手册）V3-3" class="headerlink" title="06_Hadoop（生产调优手册）V3.3"></a>06_Hadoop（生产调优手册）V3.3</h3><h3 id="07-Hadoop（源码解析）V3-3"><a href="#07-Hadoop（源码解析）V3-3" class="headerlink" title="07_Hadoop（源码解析）V3.3"></a>07_Hadoop（源码解析）V3.3</h3>
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/23/%E5%93%88%E5%B8%8C%E8%A1%A8%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%BB%8D/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="一个编程coder">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="JX">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/05/23/%E5%93%88%E5%B8%8C%E8%A1%A8%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%BB%8D/" class="post-title-link" itemprop="url">哈希表</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2021-05-23 15:37:31 / 修改时间：21:05:10" itemprop="dateCreated datePublished" datetime="2021-05-23T15:37:31+08:00">2021-05-23</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Algorithm/" itemprop="url" rel="index"><span itemprop="name">Algorithm</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>哈希表</p>
+<h1 id="哈希表的基本介绍"><a href="#哈希表的基本介绍" class="headerlink" title="哈希表的基本介绍"></a>哈希表的基本介绍</h1><blockquote>
+<p>散列表（Hash table，也叫哈希表），是根据关键码值(Key value)而直接进行访问的数据结构。也就是说，它通过把关键码值映射到表中一个位置来访问记录，以加快查找的速度。这个映射函数叫做散列函数，存放记录的数组叫做散列表。<br><img src="https://img-blog.csdnimg.cn/20210523203839714.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM4NDQxMjA3,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+</blockquote>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/05/13/%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="一个编程coder">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="JX">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/05/13/%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95/" class="post-title-link" itemprop="url">查找算法</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2021-05-13 15:37:31" itemprop="dateCreated datePublished" datetime="2021-05-13T15:37:31+08:00">2021-05-13</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-05-16 20:50:07" itemprop="dateModified" datetime="2021-05-16T20:50:07+08:00">2021-05-16</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Algorithm/" itemprop="url" rel="index"><span itemprop="name">Algorithm</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>常见的排序算法</p>
+<h1 id="查找算法"><a href="#查找算法" class="headerlink" title="查找算法"></a>查找算法</h1><h2 id="常用的查找算法"><a href="#常用的查找算法" class="headerlink" title="常用的查找算法"></a>常用的查找算法</h2><blockquote>
+<ol>
+<li>顺序(线性)查找    2) 二分查找/折半查找</li>
+<li>插值查找</li>
+<li>斐波那契查找</li>
+</ol>
+</blockquote>
+<h2 id="线性查找分析和实现"><a href="#线性查找分析和实现" class="headerlink" title="线性查找分析和实现"></a>线性查找分析和实现</h2><blockquote>
+<p>有一个数列： {1,8, 10, 89, 1000, 1234} ，判断数列中是否包含此名称【顺序查找】 要求: 如果找到了，就提示找到，并给出下标值。</p>
+</blockquote>
+<p><img src="https://img-blog.csdnimg.cn/20210516105132887.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM4NDQxMjA3,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2 id="二分查找算法"><a href="#二分查找算法" class="headerlink" title="二分查找算法"></a>二分查找算法</h2><blockquote>
+<p>  请对一个有序数组进行二分查找 {1,8, 10, 89, 1000, 1234} ，输入一个数看看该数组是否存在此数，并且求出下标，如果没有就提示”没有这个数”。</p>
+</blockquote>
+<h3 id="二分查找的思路分析"><a href="#二分查找的思路分析" class="headerlink" title="二分查找的思路分析:"></a>二分查找的思路分析:</h3><blockquote>
+<ol>
+<li><p>首先确定该数组的中间的下标<br> mid = (left + right) / 2</p>
+</li>
+<li><p>然后让需要查找的数 findVal 和 arr[mid] 比较<br> 2.1 findVal &gt; arr[mid] ,  说明你要查找的数在mid 的右边, 因此需要递归的向右查找。<br> 2.2 findVal &lt; arr[mid], 说明你要查找的数在mid 的左边, 因此需要递归的向左查找。<br> 2.3 findVal == arr[mid] 说明找到，就返回。</p>
+</li>
+</ol>
+</blockquote>
+<blockquote>
+<p>//什么时候我们需要结束递归.</p>
+<ol>
+<li>找到就结束递归。 </li>
+<li>递归完整个数组，仍然没有找到findVal ，也需要结束递归  当 left &gt; right 就需要退出。</li>
+</ol>
+</blockquote>
+<h1 id="插值查找算法"><a href="#插值查找算法" class="headerlink" title="插值查找算法"></a>插值查找算法</h1><h2 id="插值查找原理介绍"><a href="#插值查找原理介绍" class="headerlink" title="插值查找原理介绍:"></a>插值查找原理介绍:</h2><blockquote>
+<ol>
+<li>插值查找算法类似于二分查找，不同的是插值查找每次从自适应mid处开始查找。</li>
+<li>将折半查找中的求mid 索引的公式 , low 表示左边索引left, high表示右边索引right. key 就是前面我们讲的  findVal</li>
+</ol>
+<p><img src="https://img-blog.csdnimg.cn/20210516151707349.png" alt="在这里插入图片描述"><img src="https://img-blog.csdnimg.cn/20210516151722643.png" alt="在这里插入图片描述"><img src="https://img-blog.csdnimg.cn/20210516151751858.png" alt="在这里插入图片描述"></p>
+<ol start="3">
+<li>int mid = low + (high - low) * (key - arr[low]) / (arr[high] - arr[low])  ;/<em>插值索引</em>/</li>
+</ol>
+<p>对应前面的代码公式：int mid = left + (right – left) * (findVal – arr[left]) / (arr[right] – arr[left])</p>
+</blockquote>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">举例说明插值查找算法 <span class="number">1</span>-<span class="number">100</span> </span><br><span class="line">具体思路:    </span><br><span class="line"></span><br><span class="line">数组  arr = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, ......., <span class="number">100</span>]</span><br><span class="line"></span><br><span class="line">假如我们需要查找的值  <span class="number">1</span> </span><br><span class="line"></span><br><span class="line">使用二分查找的话，我们需要多次递归，才能找到 <span class="number">1</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">使用插值查找算法:</span><br><span class="line">int mid = left + (right – left) * (findVal – arr[left]) / (arr[right] – arr[left])</span><br><span class="line"></span><br><span class="line">int mid = <span class="number">0</span> + (<span class="number">99</span> - <span class="number">0</span>) * (<span class="number">1</span> - <span class="number">1</span>)/ (<span class="number">100</span> - <span class="number">1</span>) = <span class="number">0</span> + <span class="number">99</span> * <span class="number">0</span> / <span class="number">99</span> = <span class="number">0</span> </span><br><span class="line"></span><br><span class="line">比如我们查找的值 <span class="number">100</span></span><br><span class="line"></span><br><span class="line">int mid = <span class="number">0</span> + (<span class="number">99</span> - <span class="number">0</span>) * (<span class="number">100</span> - <span class="number">1</span>) / (<span class="number">100</span> - <span class="number">1</span>) = <span class="number">0</span> + <span class="number">99</span> * <span class="number">99</span> / <span class="number">99</span> = <span class="number">0</span> + <span class="number">99</span> = <span class="number">99</span> </span><br><span class="line">    </span><br><span class="line">综上,插值查找算法 ==》 套公式计算即可</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="插值查找注意事项："><a href="#插值查找注意事项：" class="headerlink" title="插值查找注意事项："></a>插值查找注意事项：</h3><blockquote>
+<p>对于数据量较大，关键字分布比较均匀的查找表来说，采用插值查找, 速度较快.</p>
+<p>关键字分布不均匀的情况下，该方法不一定比折半查找要好</p>
+</blockquote>
+<h1 id="斐波那契-黄金分割法-查找算法"><a href="#斐波那契-黄金分割法-查找算法" class="headerlink" title="斐波那契(黄金分割法)查找算法"></a>斐波那契(黄金分割法)查找算法</h1><h2 id="斐波那契-黄金分割法-查找基本介绍"><a href="#斐波那契-黄金分割法-查找基本介绍" class="headerlink" title="斐波那契(黄金分割法)查找基本介绍:"></a>斐波那契(黄金分割法)查找基本介绍:</h2><blockquote>
+<ol>
+<li><p>黄金分割点是指把一条线段分割为两部分，使其中一部分与全长之比等于另一部分与这部分之比。取其前三位数字的近似值是0.618。由于按此比例设计的造型十分美丽，因此称为黄金分割，也称为中外比。这是一个神奇的数字，会带来意向不大的效果。</p>
+</li>
+<li><p>斐波那契数列 {1, 1, 2, 3, 5, 8, 13, 21, 34, 55 } 发现斐波那契数列的两个相邻数 的比例，无限接近 黄金分割值0.618</p>
+</li>
+</ol>
+</blockquote>
+<h2 id="斐波那契-黄金分割法-原理"><a href="#斐波那契-黄金分割法-原理" class="headerlink" title="斐波那契(黄金分割法)原理"></a>斐波那契(黄金分割法)原理</h2><blockquote>
+<p>斐波那契查找原理与前两种相似，仅仅改变了中间结点（mid）的位置，mid不再是中间或插值得到，而是位于黄金分割点附近，即mid=low+F(k-1)-1（F代表斐波那契数列），如下图所示</p>
+<p><img src="https://img-blog.csdnimg.cn/20210516200348690.png" alt="在这里插入图片描述"></p>
+</blockquote>
+<p>对F(k-1)-1的理解：</p>
+<blockquote>
+<p>由斐波那契数列 F[k]=F[k-1]+F[k-2] 的性质，可以得到 （F[k]-1）=（F[k-1]-1）+（F[k-2]-1）+1 。该式说明：只要顺序表的长度为F[k]-1，则可以将该表分成长度为F[k-1]-1和F[k-2]-1的两段，即如上图所示。从而中间位置为mid=low+F(k-1)-1           </p>
+<p>类似的，每一子段也可以用相同的方式分割<br>但顺序表长度n不一定刚好等于F[k]-1，所以需要将原来的顺序表长度n增加至F[k]-1。这里的k值只要能使得F[k]-1恰好大于或等于n即可，由以下代码得到,顺序表长度增加后，新增的位置（从n+1到F[k]-1位置），都赋为n位置的值即可。</p>
+</blockquote>
+<p><img src="https://img-blog.csdnimg.cn/20210516201307260.png" alt="在这里插入图片描述"></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/04/29/%E5%B8%B8%E8%A7%81%E7%9A%84%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="一个编程coder">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="JX">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/04/29/%E5%B8%B8%E8%A7%81%E7%9A%84%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/" class="post-title-link" itemprop="url">常见的排序算法</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2021-04-29 15:37:31" itemprop="dateCreated datePublished" datetime="2021-04-29T15:37:31+08:00">2021-04-29</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-05-12 22:12:54" itemprop="dateModified" datetime="2021-05-12T22:12:54+08:00">2021-05-12</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Algorithm/" itemprop="url" rel="index"><span itemprop="name">Algorithm</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>常见的排序算法</p>
+<h1 id="排序算法的分类和介绍"><a href="#排序算法的分类和介绍" class="headerlink" title="排序算法的分类和介绍"></a>排序算法的分类和介绍</h1><p>排序也称排序算法 (Sort Algorithm)，排序是将一组数据，依指定的顺序进行排列的过程。</p>
+<h2 id="排序的分类："><a href="#排序的分类：" class="headerlink" title="排序的分类："></a>排序的分类：</h2><ol>
+<li><p>内部排序:<br>指将需要处理的所有数据都加载到内部存储器中进行排序。</p>
+</li>
+<li><p>外部排序法：<br>数据量过大，无法全部加载到内存中，需要借助外部存储进行<br>排序。</p>
+</li>
+<li><p>常见的排序算法分类(见右图):</p>
+</li>
+</ol>
+<p><img src="https://img-blog.csdnimg.cn/20210430133716126.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM4NDQxMjA3,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h1 id="算法的时间复杂度与空间复杂度"><a href="#算法的时间复杂度与空间复杂度" class="headerlink" title="算法的时间复杂度与空间复杂度"></a>算法的时间复杂度与空间复杂度</h1><h2 id="算法的时间复杂度"><a href="#算法的时间复杂度" class="headerlink" title="算法的时间复杂度"></a>算法的时间复杂度</h2><h3 id="度量一个程序-算法-执行时间的两种方法"><a href="#度量一个程序-算法-执行时间的两种方法" class="headerlink" title="度量一个程序(算法)执行时间的两种方法"></a>度量一个程序(算法)执行时间的两种方法</h3><ol>
+<li>事后统计的方法:<br>这种方法可行, 但是有两个问题：一是要想对设计的算法的运行性能进行评测，需要实际运行该程序；二是所得时间的统计量依赖于计算机的硬件、软件等环境因素, 这种方式，要在同一台计算机的相同状态下运行，才能比较那个算法速度更快。</li>
+<li>事前估算的方法:<br>通过分析某个算法的时间复杂度来判断哪个算法更优.</li>
+</ol>
+<h3 id="时间频度"><a href="#时间频度" class="headerlink" title="时间频度"></a>时间频度</h3><p> 时间频度：一个算法花费的时间与算法中语句的执行次数成正比例，哪个算法中语句执行次数多，它花费时间就多。一个算法中的语句执行次数称为语句频度或时间频度。记为T(n)。</p>
+<h2 id="常见的时间复杂度"><a href="#常见的时间复杂度" class="headerlink" title="常见的时间复杂度"></a>常见的时间复杂度</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="number">1</span>)常数阶O(<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line"><span class="number">2</span>)对数阶O(log2n)</span><br><span class="line"></span><br><span class="line"><span class="number">3</span>)线性阶O(n)</span><br><span class="line"></span><br><span class="line"><span class="number">4</span>)线性对数阶O(nlog2n)</span><br><span class="line"></span><br><span class="line"><span class="number">5</span>)平方阶O(n^<span class="number">2</span>)</span><br><span class="line"></span><br><span class="line"><span class="number">6</span>)立方阶O(n^<span class="number">3</span>)</span><br><span class="line"></span><br><span class="line"><span class="number">7</span>)k次方阶O(n^k)</span><br><span class="line"></span><br><span class="line"><span class="number">8</span>)指数阶O(<span class="number">2</span>^n)</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://img-blog.csdnimg.cn/20210501120015235.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM4NDQxMjA3,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>说明：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">常见的算法时间复杂度由小到大依次为：Ο(1)＜Ο(log2n)＜Ο(n)＜Ο(nlog2n)＜Ο(n2)＜Ο(n3)＜ Ο(nk) ＜Ο(2n) ，随着问题规模n的不断增大，上述时间复杂度不断增大，算法的执行效率越低</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h1 id="空间复杂度"><a href="#空间复杂度" class="headerlink" title="空间复杂度"></a>空间复杂度</h1><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1</span>）类似于时间复杂度的讨论，一个算法的空间复杂度(Space Complexity)定义为该算法所耗费的存储空间，它也是问题规模n的函数。</span><br><span class="line"><span class="number">2</span>）空间复杂度(Space Complexity)是对一个算法在运行过程中临时占用存储空间大小的量度。有的算法需要占用的临时工作单元数与解决问题的规模n有关，它随着n的增大而增大，当n较大时，将占用较多的存储单元，例如快速排序和归并排序算法就属于这种情况</span><br><span class="line"><span class="number">3</span>）在做算法分析时，主要讨论的是时间复杂度。从用户使用体验上看，更看重的程序执行的速度。一些缓存产品(redis, memcache)和算法(基数排序)本质就是用空间换时间.</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h1 id="冒泡排序"><a href="#冒泡排序" class="headerlink" title="冒泡排序"></a>冒泡排序</h1><h2 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h2><blockquote>
+<p>冒泡排序（Bubble Sorting）的基本思想是：通过对待<br>排序序列从前向后（从下标较小的元素开始）,依次比较<br>相邻元素的值，若发现逆序则交换，使值较大<br>的元素逐渐从前移向后部，就象水底下的气泡一样逐渐<br>向上冒。</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">因为排序的过程中，各元素不断接近自己的位置，如果一趟比较下</span><br><span class="line">来没有进行过交换，就说明序列有序，因此要在排序过程中设置</span><br><span class="line">一个标志flag判断元素是否进行过交换。从而减少不必要的比较。(这里说的优化，可以在冒泡排序写好后，在进行)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h1 id="选择排序"><a href="#选择排序" class="headerlink" title="选择排序"></a>选择排序</h1><h2 id="基本介绍-1"><a href="#基本介绍-1" class="headerlink" title="基本介绍"></a>基本介绍</h2><blockquote>
+<p>选择式排序也属于内部排序法，是从欲排序的数据中，按指定的规则选出某一元素，再依规定交换位置后达到排序的目的。</p>
+</blockquote>
+<h2 id="选择排序思想"><a href="#选择排序思想" class="headerlink" title="选择排序思想:"></a>选择排序思想:</h2><blockquote>
+<p>选择排序（select sorting）也是一种简单的排序方法。<br>它的基本思想是：第一次从arr[0] – arr[n-1]中选取最小值，与arr[0]交换，<br>第二次从arr[1]–arr[n-1]中选取最小值，与arr[1]交换，<br>第三次从arr[2]–arr[n-1]中选取最小值，与arr[2]交换，…，<br>第i次从arr[i-1]–arr[n-1]中选取最小值，与arr[i-1]交换，…, 第n-1次从arr[n-2]–arr[n-1]中选取最小值，与arr[n-2]交换，<br>总共通过n-1次，得到一个按排序码从小到大排列的有序序列。</p>
+</blockquote>
+<h2 id="选择排序思路分析图"><a href="#选择排序思路分析图" class="headerlink" title="选择排序思路分析图:"></a>选择排序思路分析图:</h2><p><img src="https://img-blog.csdnimg.cn/20210501210008226.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM4NDQxMjA3,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h1 id="插入排序"><a href="#插入排序" class="headerlink" title="插入排序"></a>插入排序</h1><h2 id="基本介绍-2"><a href="#基本介绍-2" class="headerlink" title="基本介绍"></a>基本介绍</h2><blockquote>
+<p>插入式排序属于内部排序法，是对于欲排序的元素以插入的方式找寻该元素的适当位置，以达到排序的目的。</p>
+</blockquote>
+<h2 id="插入排序法思想"><a href="#插入排序法思想" class="headerlink" title="插入排序法思想:"></a>插入排序法思想:</h2><blockquote>
+<p>插入排序（Insertion Sorting）的基本思想是：把n个待排序的元素看成为一个有序表和一个无序表，开始时有序表中只包含一个元素，无序表中包含有n-1个元素，排序过程中每次从无序表中取出第一个元素，把它的排序码依次与有序表元素的排序码进行比较，将它插入到有序表中的适当位置，使之成为新的有序表。</p>
+</blockquote>
+<h2 id="插入排序思路图"><a href="#插入排序思路图" class="headerlink" title="插入排序思路图:"></a>插入排序思路图:</h2><p><img src="https://img-blog.csdnimg.cn/20210507214659961.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM4NDQxMjA3,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h1 id="希尔排序"><a href="#希尔排序" class="headerlink" title="希尔排序"></a>希尔排序</h1><h2 id="基本介绍-3"><a href="#基本介绍-3" class="headerlink" title="基本介绍"></a>基本介绍</h2><p>简单插入排序存在的问题</p>
+<blockquote>
+<p>我们看简单的插入排序可能存在的问题.<br>数组 arr = {2,3,4,5,6,1} 这时需要插入的数 1(最小), 这样的过程是：</p>
+<p>{2,3,4,5,6,6}</p>
+<p>{2,3,4,5,5,6}</p>
+<p>{2,3,4,4,5,6}</p>
+<p>{2,3,3,4,5,6}</p>
+<p>{2,2,3,4,5,6}</p>
+<p>{1,2,3,4,5,6}</p>
+</blockquote>
+<p>结论: 当需要插入的数是较小的数时，后移的次数明显增多，对效率有影响.</p>
+<blockquote>
+<p>希尔排序是希尔（Donald Shell）于1959年提出的一种排序算法。希尔排序也是一种插入排序，它是简单插入排序经过改进之后的一个更高效的版本，也称为缩小增量排序。</p>
+</blockquote>
+<h3 id="希尔排序法基本思想"><a href="#希尔排序法基本思想" class="headerlink" title="希尔排序法基本思想"></a>希尔排序法基本思想</h3><blockquote>
+<p>希尔排序是把记录按下标的一定增量分组，对每组使用直接插入排序算法排序；随着增量逐渐减少，每组包含的关键词越来越多，当增量减至1时，整个文件恰被分成一组，算法便终止</p>
+</blockquote>
+<h3 id="希尔排序法的示意图"><a href="#希尔排序法的示意图" class="headerlink" title="希尔排序法的示意图"></a>希尔排序法的示意图</h3><p><img src="https://img-blog.csdnimg.cn/202105102208009.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM4NDQxMjA3,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h1 id="快速排序"><a href="#快速排序" class="headerlink" title="快速排序"></a>快速排序</h1><h2 id="基本介绍-4"><a href="#基本介绍-4" class="headerlink" title="基本介绍"></a>基本介绍</h2><blockquote>
+<p>快速排序（Quicksort）是对冒泡排序的一种改进。基本思想是：通过一趟排序将要排序的数据分割成独立的两部分，其中一部分的所有数据都比另外一部分的所有数据都要小，然后再按此方法对这两部分数据分别进行快速排序，整个排序过程可以递归进行，以此达到整个数据变成有序序列</p>
+</blockquote>
+<h2 id="快速排序法示意图"><a href="#快速排序法示意图" class="headerlink" title="快速排序法示意图:"></a>快速排序法示意图:</h2><p><img src="https://img-blog.csdnimg.cn/20210511220442728.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM4NDQxMjA3,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h1 id="归并排序"><a href="#归并排序" class="headerlink" title="归并排序"></a>归并排序</h1><h2 id="基本介绍-5"><a href="#基本介绍-5" class="headerlink" title="基本介绍"></a>基本介绍</h2><blockquote>
+<p>归并排序（MERGE-SORT）是利用归并的思想实现的排序方法，该算法采用经典的分治（divide-and-conquer）策略（分治法将问题分(divide)成一些小的问题然后递归求解，而治(conquer)的阶段则将分的阶段得到的各答案”修补”在一起，即分而治之)。</p>
+</blockquote>
+<h2 id="归并排序思想示意图1-基本思想"><a href="#归并排序思想示意图1-基本思想" class="headerlink" title="归并排序思想示意图1-基本思想:"></a>归并排序思想示意图1-基本思想:</h2><p><img src="https://img-blog.csdnimg.cn/20210512203649101.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM4NDQxMjA3,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<blockquote>
+<p>可以看到这种结构很像一棵完全二叉树，本文的归并排序我们采用递归去实现（也可采用迭代的方式去实现）。分阶段可以理解为就是递归拆分子序列的过程。</p>
+</blockquote>
+<h2 id="归并排序思想示意图2-合并相邻有序子序列"><a href="#归并排序思想示意图2-合并相邻有序子序列" class="headerlink" title="归并排序思想示意图2-合并相邻有序子序列:"></a>归并排序思想示意图2-合并相邻有序子序列:</h2><blockquote>
+<p>再来看看治阶段，我们需要将两个已经有序的子序列合并成一个有序序列，比如上图中的最后一次合并，要将[4,5,7,8]和[1,2,3,6]两个已经有序的子序列，合并为最终序列[1,2,3,4,5,6,7,8]，来看下实现步骤</p>
+</blockquote>
+<p><img src="https://img-blog.csdnimg.cn/202105122045334.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM4NDQxMjA3,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p><img src="https://img-blog.csdnimg.cn/20210512204600489.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM4NDQxMjA3,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h1 id="基数排序"><a href="#基数排序" class="headerlink" title="基数排序"></a>基数排序</h1><h2 id="基数排序-桶排序-介绍"><a href="#基数排序-桶排序-介绍" class="headerlink" title="基数排序(桶排序)介绍:"></a>基数排序(桶排序)介绍:</h2><blockquote>
+<p>1.基数排序（radix sort）属于“分配式排序”（distribution sort），又称“桶子法”（bucket sort）或bin sort，顾名思义，它是通过键值的各个位的值，将要排序的元素分配至某些“桶”中，达到排序的作用</p>
+<p>2.基数排序法是属于稳定性的排序，基数排序法是效率高的稳定性排序法</p>
+<p>3.基数排序(Radix Sort)是桶排序的扩展</p>
+<p>4.基数排序是1887年赫尔曼·何乐礼发明的。它是这样实现的：将整数按位数切割成不同的数字，然后按每个位数分别比较。</p>
+</blockquote>
+<h2 id="基数排序基本思想"><a href="#基数排序基本思想" class="headerlink" title="基数排序基本思想:"></a>基数排序基本思想:</h2><blockquote>
+<p>1.将所有待比较数值统一为同样的数位长度，数位较短的数前面补零。然后，从最低位开始，依次进行一次排序。这样从最低位排序一直到最高位排序完成以后, 数列就变成一个有序序列。</p>
+<p>2.这样说明，比较难理解，下面我们看一个图文解释，理解基数排序的步骤</p>
+</blockquote>
+<h2 id="基数排序的说明"><a href="#基数排序的说明" class="headerlink" title="基数排序的说明:"></a>基数排序的说明:</h2><blockquote>
+<p>基数排序是对传统桶排序的扩展，速度很快.</p>
+<p>基数排序是经典的空间换时间的方式，占用内存很大, 当对海量数据排序时，容易造成 OutOfMemoryError 。</p>
+<p>基数排序时稳定的。[注:假定在待排序的记录序列中，存在多个具有相同的关键字的记录，若经过排序，这些记录的相对次序保持不变，即在原序列中，r[i]=r[j]，且r[i]在r[j]之前，而在排序后的序列中，r[i]仍在r[j]之前，则称这种排序算法是稳定的；否则称为不稳定的]</p>
+<p>有负数的数组，我们不用基数排序来进行排序, 如果要支持负数，参考: <a target="_blank" rel="noopener" href="https://code.i-harness.com/zh-CN/q/e98fa9">https://code.i-harness.com/zh-CN/q/e98fa9</a> </p>
+</blockquote>
+<h1 id="常用排序算法总结和对比"><a href="#常用排序算法总结和对比" class="headerlink" title="常用排序算法总结和对比"></a>常用排序算法总结和对比</h1><h2 id="一张排序算法的比较图"><a href="#一张排序算法的比较图" class="headerlink" title="一张排序算法的比较图"></a>一张排序算法的比较图</h2><p><img src="https://img-blog.csdnimg.cn/20210512220930726.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM4NDQxMjA3,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2 id="相关术语解释："><a href="#相关术语解释：" class="headerlink" title="相关术语解释："></a>相关术语解释：</h2><blockquote>
+<p>稳定：如果a原本在b前面，而a=b，排序之后a仍然在b的前面；</p>
+<p>不稳定：如果a原本在b的前面，而a=b，排序之后a可能会出现在b的后面；<br>内排序：所有排序操作都在内存中完成；<br>外排序：由于数据太大，因此把数据放在磁盘中，而排序通过磁盘和内存的数据传输才能进行；</p>
+<p>时间复杂度： 一个算法执行所耗费的时间。</p>
+<p>空间复杂度：运行完一个程序所需内存的大小。</p>
+<p>n: 数据规模</p>
+<p>k: “桶”的个数</p>
+<p>In-place:    不占用额外内存</p>
+<p>Out-place: 占用额外内存</p>
+</blockquote>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/04/12/MySQL%E5%9F%BA%E7%A1%80%E6%95%B4%E7%90%86/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="一个编程coder">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="JX">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/04/12/MySQL%E5%9F%BA%E7%A1%80%E6%95%B4%E7%90%86/" class="post-title-link" itemprop="url">mysql 整理</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2021-04-12 14:37:00 / 修改时间：18:15:17" itemprop="dateCreated datePublished" datetime="2021-04-12T14:37:00+08:00">2021-04-12</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/mysql/" itemprop="url" rel="index"><span itemprop="name">mysql</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="本单元目标"><a href="#本单元目标" class="headerlink" title="本单元目标"></a>本单元目标</h2><pre><code>一、为什么要学习数据库
+二、数据库的相关概念      
+    DBMS、DB、SQL
+三、数据库存储数据的特点
+四、初始MySQL
+    MySQL产品的介绍        
+    MySQL产品的安装          ★        
+    MySQL服务的启动和停止     ★
+    MySQL服务的登录和退出     ★      
+    MySQL的常见命令和语法规范      
+五、DQL语言的学习   ★              
+    基础查询        ★             
+    条件查询         ★            
+    排序查询         ★                
+    常见函数        ★               
+    分组函数        ★              
+    分组查询           ★            
+    连接查询         ★            
+    子查询       √                  
+    分页查询       ★              
+    union联合查询    √            
+    
+六、DML语言的学习    ★             
+    插入语句                        
+    修改语句                        
+    删除语句                        
+七、DDL语言的学习  
+    库和表的管理     √                
+    常见数据类型介绍  √          
+    常见约束        √            
+八、TCL语言的学习
+    事务和事务处理                 
+九、视图的讲解           √
+十、变量                      
+十一、存储过程和函数   
+十二、流程控制结构       
+</code></pre>
+<h2 id="数据库的好处"><a href="#数据库的好处" class="headerlink" title="数据库的好处"></a>数据库的好处</h2><pre><code>1.持久化数据到本地
+2.可以实现结构化查询，方便管理
+</code></pre>
+<h2 id="数据库相关概念"><a href="#数据库相关概念" class="headerlink" title="数据库相关概念"></a>数据库相关概念</h2><pre><code>1、DB：数据库，存储数据的容器
+2、DBMS：数据库管理系统，又称为数据库软件或数据库产品，用于创建或管理DB
+3、SQL:结构化查询语言，用于和数据库通信的语言，不是某个数据库软件特有的，而是几乎所有的主流数据库软件通用的语言
+</code></pre>
+<h2 id="数据库存储数据的特点"><a href="#数据库存储数据的特点" class="headerlink" title="数据库存储数据的特点"></a>数据库存储数据的特点</h2><pre><code>1、将数据放到表中，表再放到库中
+2、一个数据库中可以有多个表，每个表都有一个的名字，用来标识自己。表名具有唯一性。
+3、表具有一些特性，这些特性定义了数据在表中如何存储，类似java中 “类”的设计。
+4、表由列组成，我们也称为字段。所有表都是由一个或多个列组成的，每一列类似java 中的”属性”
+5、表中的数据是按行存储的，每一行类似于java中的“对象”。
+</code></pre>
+<h2 id="MySQL产品的介绍和安装"><a href="#MySQL产品的介绍和安装" class="headerlink" title="MySQL产品的介绍和安装"></a>MySQL产品的介绍和安装</h2><h3 id="MySQL的背景"><a href="#MySQL的背景" class="headerlink" title="MySQL的背景"></a>MySQL的背景</h3><pre><code>前身属于瑞典的一家公司，MySQL AB
+08年被sun公司收购
+09年sun被oracle收购
+</code></pre>
+<h3 id="MySQL的优点"><a href="#MySQL的优点" class="headerlink" title="MySQL的优点"></a>MySQL的优点</h3><pre><code>1、开源、免费、成本低
+2、性能高、移植性也好
+3、体积小，便于安装
+</code></pre>
+<h3 id="MySQL服务的启动和停止"><a href="#MySQL服务的启动和停止" class="headerlink" title="MySQL服务的启动和停止"></a>MySQL服务的启动和停止</h3><pre><code>方式一：计算机——右击管理——服务
+方式二：通过管理员身份运行
+net start 服务名（启动服务）
+net stop 服务名（停止服务）
+</code></pre>
+<h3 id="MySQL服务的登录和退出"><a href="#MySQL服务的登录和退出" class="headerlink" title="MySQL服务的登录和退出"></a>MySQL服务的登录和退出</h3><pre><code>方式一：通过mysql自带的客户端
+只限于root用户
+
+方式二：通过windows自带的客户端
+登录：
+mysql 【-h主机名 -P端口号 】-u用户名 -p密码
+
+退出：
+exit或ctrl+C
+</code></pre>
+<h3 id="MySQL的常见命令"><a href="#MySQL的常见命令" class="headerlink" title="MySQL的常见命令"></a>MySQL的常见命令</h3><pre><code>1.查看当前所有的数据库
+show databases;
+2.打开指定的库
+use 库名
+3.查看当前库的所有表
+show tables;
+4.查看其它库的所有表
+show tables from 库名;
+5.创建表
+create table 表名(
+
+    列名 列类型,
+    列名 列类型，
+    。。。
+);
+6.查看表结构
+desc 表名;
+
+
+7.查看服务器的版本
+方式一：登录到mysql服务端
+select version();
+方式二：没有登录到mysql服务端
+mysql --version
+或
+mysql --V
+</code></pre>
+<h3 id="MySQL的语法规范"><a href="#MySQL的语法规范" class="headerlink" title="MySQL的语法规范"></a>MySQL的语法规范</h3><pre><code>1.不区分大小写,但建议关键字大写，表名、列名小写
+2.每条命令最好用分号结尾
+3.每条命令根据需要，可以进行缩进 或换行
+4.注释
+    单行注释：#注释文字
+    单行注释：-- 注释文字
+    多行注释：/* 注释文字  */
+</code></pre>
+<h3 id="SQL的语言分类"><a href="#SQL的语言分类" class="headerlink" title="SQL的语言分类"></a>SQL的语言分类</h3><pre><code>DQL（Data Query Language）：数据查询语言
+    select 
+DML(Data Manipulate Language):数据操作语言
+    insert 、update、delete
+DDL（Data Define Languge）：数据定义语言
+    create、drop、alter
+TCL（Transaction Control Language）：事务控制语言
+    commit、rollback
+</code></pre>
+<h3 id="SQL的常见命令"><a href="#SQL的常见命令" class="headerlink" title="SQL的常见命令"></a>SQL的常见命令</h3><pre><code>show databases； 查看所有的数据库
+use 库名； 打开指定 的库
+show tables ; 显示库中的所有表
+show tables from 库名;显示指定库中的所有表
+create table 表名(
+    字段名 字段类型,    
+    字段名 字段类型
+); 创建表
+
+desc 表名; 查看指定表的结构
+select * from 表名;显示表中的所有数据
+</code></pre>
+<h2 id="DQL语言的学习"><a href="#DQL语言的学习" class="headerlink" title="DQL语言的学习"></a>DQL语言的学习</h2><h3 id="进阶1：基础查询"><a href="#进阶1：基础查询" class="headerlink" title="进阶1：基础查询"></a>进阶1：基础查询</h3><pre><code>语法：
+SELECT 要查询的东西
+【FROM 表名】;
+
+类似于Java中 :System.out.println(要打印的东西);
+特点：
+①通过select查询完的结果 ，是一个虚拟的表格，不是真实存在
+② 要查询的东西 可以是常量值、可以是表达式、可以是字段、可以是函数
+</code></pre>
+<h3 id="进阶2：条件查询"><a href="#进阶2：条件查询" class="headerlink" title="进阶2：条件查询"></a>进阶2：条件查询</h3><pre><code>条件查询：根据条件过滤原始表的数据，查询到想要的数据
+语法：
+select 
+    要查询的字段|表达式|常量值|函数
+from 
+    表
+where 
+    条件 ;
+
+分类：
+一、条件表达式
+    示例：salary&gt;10000
+    条件运算符：
+    &gt; &lt; &gt;= &lt;= = != &lt;&gt;
+
+二、逻辑表达式
+示例：salary&gt;10000 &amp;&amp; salary&lt;20000
+
+逻辑运算符：
+
+    and（&amp;&amp;）:两个条件如果同时成立，结果为true，否则为false
+    or(||)：两个条件只要有一个成立，结果为true，否则为false
+    not(!)：如果条件成立，则not后为false，否则为true
+
+三、模糊查询
+示例：last_name like &#39;a%&#39;
+</code></pre>
+<h3 id="进阶3：排序查询"><a href="#进阶3：排序查询" class="headerlink" title="进阶3：排序查询"></a>进阶3：排序查询</h3><pre><code>语法：
+select
+    要查询的东西
+from
+    表
+where 
+    条件
+
+order by 排序的字段|表达式|函数|别名 【asc|desc】
+特点：
+1、asc ：升序，如果不写默认升序
+desc：降序
+2、排序列表 支持 单个字段、多个字段、函数、表达式、别名
+3、order by的位置一般放在查询语句的最后（除limit语句之外）
+</code></pre>
+<h3 id="进阶4：常见函数"><a href="#进阶4：常见函数" class="headerlink" title="进阶4：常见函数"></a>进阶4：常见函数</h3><pre><code>类似于java中的方法
+好处：提高重用性和隐藏实现细节
+调用：select 函数名(实参列表);
+一、单行函数
+1、字符函数
+    concat拼接
+    substr截取子串
+    upper转换成大写
+    lower转换成小写
+    trim去前后指定的空格和字符
+    ltrim去左边空格
+    rtrim去右边空格
+    replace替换
+    lpad左填充
+    rpad右填充
+    instr返回子串第一次出现的索引
+    length 获取字节个数
+    
+2、数学函数
+    round 四舍五入
+    rand 随机数
+    floor向下取整
+    ceil向上取整
+    mod取余
+    truncate截断
+3、日期函数
+    now当前系统日期+时间
+    curdate当前系统日期
+    curtime当前系统时间
+    str_to_date 将字符转换成日期
+    date_format将日期转换成字符
+4、流程控制函数
+    if 处理双分支
+    case语句 处理多分支
+        情况1：处理等值判断
+        情况2：处理条件判断
+    
+5、其他函数
+    version版本
+    database当前库
+    user当前连接用户
+
+二、分组函数
+    sum 求和
+    max 最大值
+    min 最小值
+    avg 平均值
+    count 计数
+
+    特点：
+    1、以上五个分组函数都忽略null值，除了count(*)
+    2、sum和avg一般用于处理数值型
+        max、min、count可以处理任何数据类型
+    3、都可以搭配distinct使用，用于统计去重后的结果
+    4、count的参数可以支持：
+        字段、*、常量值，一般放1
+
+       建议使用 count(*)
+
+案例：查询每个部门的员工个数
+1 xx    10
+2 dd    20
+3 mm    20
+4 aa    40
+5 hh    40
+
+count(1):统计结果集的行数
+效率上：
+MyISAM存储引擎，count(*)最高
+InnoDB存储引擎，count(*)和count(1)效率&gt;count(字段)
+为什么？？？？
+TODO
+
+如何选择：
+
+1. 是否要支持事务，如果要请选择innodb，如果不需要可以考虑MyISAM；
+
+2. 如果表中绝大多数都只是读查询，可以考虑MyISAM，如果既有读也有写，请使用InnoDB。
+
+3. 系统奔溃后，MyISAM恢复起来更困难，能否接受；
+</code></pre>
+<h2 id="进阶5：分组查询"><a href="#进阶5：分组查询" class="headerlink" title="进阶5：分组查询"></a>进阶5：分组查询</h2><pre><code>语法：
+select 分组函数，分组后的字段
+from 表
+【where 筛选条件】
+group by 分组的字段
+【having 分组后的筛选】
+【order by 排序列表】
+
+
+特点：
+1、可以按单个字段分组
+2、和分组函数一同查询的字段最好是分组后的字段
+3、分组筛选
+               针对的表    位置            关键字
+分组前筛选：    原始表        group by的前面        where
+分组后筛选：    分组后的结果集    group by的后面        having
+
+4、可以按多个字段分组，字段之间用逗号隔开
+5、可以支持排序
+6、having后可以支持别名
+</code></pre>
+<h2 id="进阶6：多表连接查询"><a href="#进阶6：多表连接查询" class="headerlink" title="进阶6：多表连接查询"></a>进阶6：多表连接查询</h2><pre><code>当查询中涉及到了多个表的字段，需要使用多表连接
+
+select 字段1，字段2
+from 表1，表2,...;
+
+笛卡尔乘积：当查询多个表时，没有添加有效的连接条件，导致多个表所有行实现完全连接
+
+解决办法：添加上连接条件
+
+按年代分离：
+sql92：
+    等值
+    非等值
+    自连接
+    也支持一部分外连接（用于oracle、sqlserver，mysql不支持）
+sql99【推荐使用】
+    内连接
+        等值
+        非等值
+        自连接
+    外连接
+        左外
+        右外
+        全外（mysql不支持）
+    交叉连接
+</code></pre>
+<p>一、传统模式下的连接 ：等值连接——非等值连接</p>
+<pre><code>1.等值连接的结果 = 多个表的交集
+2.n表连接，至少需要n-1个连接条件
+3.多个表不分主次，没有顺序要求
+4.一般为表起别名，提高阅读性和性能
+</code></pre>
+<p>二、sql99语法：通过join关键字实现连接</p>
+<pre><code>含义：1999年推出的sql语法
+支持：
+等值连接、非等值连接 （内连接）
+外连接
+交叉连接
+
+语法：
+
+select 字段，...
+from 表1
+【inner|left outer|right outer|cross】join 表2 on  连接条件
+【inner|left outer|right outer|cross】join 表3 on  连接条件
+【where 筛选条件】
+【group by 分组字段】
+【having 分组后的筛选条件】
+【order by 排序的字段或表达式】
+
+好处：语句上，连接条件和筛选条件实现了分离，简洁明了！
+</code></pre>
+<p>三、自连接</p>
+<p>案例：查询员工名和直接上级的名称</p>
+<p>sql99</p>
+<pre><code>SELECT e.last_name,m.last_name
+FROM employees e
+JOIN employees m ON e.`manager_id`=m.`employee_id`;
+</code></pre>
+<p>sql92</p>
+<pre><code>SELECT e.last_name,m.last_name
+FROM employees e,employees m 
+WHERE e.`manager_id`=m.`employee_id`;
+</code></pre>
+<h2 id="进阶7：子查询"><a href="#进阶7：子查询" class="headerlink" title="进阶7：子查询"></a>进阶7：子查询</h2><p>含义：</p>
+<pre><code>一条查询语句中又嵌套了另一条完整的select语句，其中被嵌套的select语句，称为子查询或内查询
+外面的语句可以是insert、update、delete、select等，一般select作为外面语句较多
+在外面的查询语句，称为主查询或外查询
+</code></pre>
+<p>特点：</p>
+<pre><code>1、子查询都放在小括号内
+2、子查询可以放在from后面、select后面、where后面、having后面，但一般放在条件的右侧
+3、子查询优先于主查询执行，主查询使用了子查询的执行结果
+4、子查询根据查询结果的行数不同分为以下两类：
+① 标量子查询（单行子查询）
+    结果集只有一行
+    一般搭配单行操作符使用：&gt; &lt; = &lt;&gt; &gt;= &lt;= 
+    非法使用子查询的情况：
+    a、子查询的结果为一组值
+    b、子查询的结果为空
+    
+② 列子查询（多行子查询）
+    结果集有多行
+    一般搭配多行操作符使用：any、all、in、not in
+    in： 属于子查询结果中的任意一个就行
+    any和all往往可以用其他查询代替
+</code></pre>
+<h2 id="进阶8：分页查询"><a href="#进阶8：分页查询" class="headerlink" title="进阶8：分页查询"></a>进阶8：分页查询</h2><p>应用场景：</p>
+<pre><code>实际的web项目中需要根据用户的需求提交对应的分页查询的sql语句
+当要查询的条目数太多，一页显示不全
+</code></pre>
+<p>语法：</p>
+<pre><code>select 字段|表达式,...
+from 表
+【where 条件】
+【group by 分组字段】
+【having 条件】
+【order by 排序的字段】
+limit 【起始的条目索引，】条目数;
+</code></pre>
+<p>特点：</p>
+<pre><code>1.起始条目索引从0开始
+
+2.limit子句放在查询语句的最后
+
+3.公式：select * from  表 limit （page-1）*sizePerPage,sizePerPage
+假如:
+每页显示条目数sizePerPage
+要显示的页数 page
+</code></pre>
+<h2 id="进阶9：联合查询"><a href="#进阶9：联合查询" class="headerlink" title="进阶9：联合查询"></a>进阶9：联合查询</h2><p>引入：<br>    union 合并、联合，将多次查询结果合并成一个结果</p>
+<p>语法：</p>
+<pre><code>select 字段|常量|表达式|函数 【from 表】 【where 条件】 union 【all】
+select 字段|常量|表达式|函数 【from 表】 【where 条件】 union 【all】
+select 字段|常量|表达式|函数 【from 表】 【where 条件】 union  【all】
+.....
+select 字段|常量|表达式|函数 【from 表】 【where 条件】
+</code></pre>
+<p>特点：</p>
+<pre><code>1、多条查询语句的查询的列数必须是一致的
+2、多条查询语句的查询的列的类型几乎相同
+3、union代表去重，union all代表不去重
+</code></pre>
+<p>意义</p>
+<pre><code>1、将一条比较复杂的查询语句拆分成多条语句
+2、适用于查询多个表的时候，查询的列基本是一致
+</code></pre>
+<h2 id="DML语言"><a href="#DML语言" class="headerlink" title="DML语言"></a>DML语言</h2><h3 id="插入"><a href="#插入" class="headerlink" title="插入"></a>插入</h3><p>语法：<br>    insert into 表名(字段名，…)<br>    values(值1，…);</p>
+<p>特点：</p>
+<pre><code>1、字段类型和值类型一致或兼容，而且一一对应
+2、可以为空的字段，可以不用插入值，或用null填充
+3、不可以为空的字段，必须插入值
+4、字段个数和值的个数必须一致
+5、字段可以省略，但默认所有字段，并且顺序和表中的存储顺序一致
+</code></pre>
+<h3 id="修改"><a href="#修改" class="headerlink" title="修改"></a>修改</h3><p>修改单表语法：</p>
+<pre><code>update 表名 set 字段=新值,字段=新值
+【where 条件】
+</code></pre>
+<p>修改多表语法：</p>
+<pre><code>update 表1 别名1,表2 别名2
+set 字段=新值，字段=新值
+where 连接条件
+and 筛选条件
+</code></pre>
+<h3 id="删除"><a href="#删除" class="headerlink" title="删除"></a>删除</h3><p>方式1：delete语句 </p>
+<p>单表的删除： ★<br>    delete from 表名 【where 筛选条件】</p>
+<p>多表的删除：<br>    delete 别名1，别名2<br>    from 表1 别名1，表2 别名2<br>    where 连接条件<br>    and 筛选条件;</p>
+<p>方式2：truncate语句</p>
+<pre><code>truncate table 表名
+</code></pre>
+<p>两种方式的区别【面试题】</p>
+<pre><code>#1.delete可以添加筛选条件， truncate不可以添加筛选条件。truncate不能加where条件，而delete可以加where条件
+
+#2.truncate的效率高一丢丢
+
+#3.truncate 删除带自增长的列的表后，如果再插入数据，数据从1开始
+#delete 删除带自增长列的表后，如果再插入数据，数据从上一次的断点处开始
+
+#4.truncate删除不能回滚，delete删除可以回滚
+</code></pre>
+<h2 id="DDL语句"><a href="#DDL语句" class="headerlink" title="DDL语句"></a>DDL语句</h2><h3 id="库和表的管理"><a href="#库和表的管理" class="headerlink" title="库和表的管理"></a>库和表的管理</h3><p>库的管理：</p>
+<pre><code>一、创建库
+create database 库名
+二、删除库
+drop database 库名
+</code></pre>
+<p>表的管理：</p>
+<pre><code>#1.创建表
+CREATE TABLE IF NOT EXISTS stuinfo(
+    stuId INT,
+    stuName VARCHAR(20),
+    gender CHAR,
+    bornDate DATETIME
+    
+
+);
+
+DESC studentinfo;
+#2.修改表 alter
+语法：ALTER TABLE 表名 ADD|MODIFY|DROP|CHANGE COLUMN 字段名 【字段类型】;
+
+#①修改字段名
+ALTER TABLE studentinfo CHANGE  COLUMN sex gender CHAR;
+
+#②修改表名
+ALTER TABLE stuinfo RENAME [TO]  studentinfo;
+#③修改字段类型和列级约束
+ALTER TABLE studentinfo MODIFY COLUMN borndate DATE ;
+
+#④添加字段
+
+ALTER TABLE studentinfo ADD COLUMN email VARCHAR(20) first;
+#⑤删除字段
+ALTER TABLE studentinfo DROP COLUMN email;
+
+
+#3.删除表
+
+DROP TABLE [IF EXISTS] studentinfo;
+</code></pre>
+<h3 id="常见类型"><a href="#常见类型" class="headerlink" title="常见类型"></a>常见类型</h3><pre><code>整型：
+    
+小数：
+    浮点型
+    定点型
+字符型：
+日期型：
+Blob类型：
+</code></pre>
+<h3 id="常见约束"><a href="#常见约束" class="headerlink" title="常见约束"></a>常见约束</h3><pre><code>NOT NULL：非空，该字段的值必填
+DEFAULT：默认，该字段的值不用手动插入有默认值
+UNIQUE：唯一，该字段的值不可重复
+CHECK：检查，mysql不支持
+PRIMARY KEY：主键，该字段的值不可重复并且非空  unique+not null
+FOREIGN KEY：外键，该字段的值引用了另外的表的字段
+</code></pre>
+<h2 id="数据库事务"><a href="#数据库事务" class="headerlink" title="数据库事务"></a>数据库事务</h2><h3 id="含义"><a href="#含义" class="headerlink" title="含义"></a>含义</h3><pre><code>通过一组逻辑操作单元（一组DML——sql语句），将数据从一种状态切换到另外一种状态
+</code></pre>
+<h3 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h3><pre><code>（ACID）
+原子性：一个事务是不可再分割的整体，要么都执行要么都不执行
+一致性：一个事务可以使数据从一个一致状态切换到另外一个一致的状态
+隔离性：一个事务不受其他事务的干扰，多个事务互相隔离的
+持久性：一个事务一旦提交，则数据将持久化到本地，除非其他事务对其进行修改
+</code></pre>
+<p>相关步骤：</p>
+<pre><code>1、开启事务
+2、编写事务的一组逻辑操作单元（多条sql语句）
+3、提交事务或回滚事务
+</code></pre>
+<h3 id="事务的分类："><a href="#事务的分类：" class="headerlink" title="事务的分类："></a>事务的分类：</h3><p>隐式事务，没有明显的开启和结束事务的标志</p>
+<pre><code>比如
+insert、update、delete语句本身就是一个事务
+</code></pre>
+<p>显式事务，具有明显的开启和结束事务的标志</p>
+<pre><code>    1、开启事务
+    取消自动提交事务的功能
+    
+    2、编写事务的一组逻辑操作单元（多条sql语句）
+    insert
+    update
+    delete
+    
+    3、提交事务或回滚事务
+</code></pre>
+<h3 id="使用到的关键字"><a href="#使用到的关键字" class="headerlink" title="使用到的关键字"></a>使用到的关键字</h3><pre><code>set autocommit=0;
+start transaction;
+commit;
+rollback;
+
+savepoint  断点
+commit to 断点
+rollback to 断点
+</code></pre>
+<h3 id="事务的隔离级别"><a href="#事务的隔离级别" class="headerlink" title="事务的隔离级别:"></a>事务的隔离级别:</h3><p>事务并发问题如何发生？</p>
+<pre><code>当多个事务同时操作同一个数据库的相同数据时
+</code></pre>
+<p>事务的并发问题有哪些？</p>
+<pre><code>脏读：一个事务读取到了另外一个事务未提交的数据
+不可重复读：同一个事务中，多次读取到的数据不一致
+幻读：一个事务读取数据时，另外一个事务进行更新，导致第一个事务读取到了没有更新的数据
+</code></pre>
+<p>如何避免事务的并发问题？</p>
+<pre><code>通过设置事务的隔离级别
+1、READ UNCOMMITTED
+2、READ COMMITTED 可以避免脏读
+3、REPEATABLE READ 可以避免脏读、不可重复读和一部分幻读
+4、SERIALIZABLE可以避免脏读、不可重复读和幻读
+</code></pre>
+<p>设置隔离级别：</p>
+<pre><code>set session|global  transaction isolation level 隔离级别名;
+</code></pre>
+<p>查看隔离级别：</p>
+<pre><code>select @@tx_isolation;
+</code></pre>
+<h2 id="视图"><a href="#视图" class="headerlink" title="视图"></a>视图</h2><p>含义：理解成一张虚拟的表</p>
+<p>视图和表的区别：</p>
+<pre><code>         使用方式    占用物理空间
+
+视图    完全相同    不占用，仅仅保存的是sql逻辑
+
+表        完全相同    占用
+</code></pre>
+<p>视图的好处：</p>
+<pre><code>1、sql语句提高重用性，效率高
+2、和表实现了分离，提高了安全性
+</code></pre>
+<h3 id="视图的创建"><a href="#视图的创建" class="headerlink" title="视图的创建"></a>视图的创建</h3><pre><code>语法：
+CREATE VIEW  视图名
+AS
+查询语句;
+</code></pre>
+<h3 id="视图的增删改查"><a href="#视图的增删改查" class="headerlink" title="视图的增删改查"></a>视图的增删改查</h3><pre><code>1、查看视图的数据 ★
+
+SELECT * FROM my_v4;
+SELECT * FROM my_v1 WHERE last_name=&#39;Partners&#39;;
+
+2、插入视图的数据
+INSERT INTO my_v4(last_name,department_id) VALUES(&#39;虚竹&#39;,90);
+
+3、修改视图的数据
+
+UPDATE my_v4 SET last_name =&#39;梦姑&#39; WHERE last_name=&#39;虚竹&#39;;
+
+
+4、删除视图的数据
+DELETE FROM my_v4;
+</code></pre>
+<h3 id="某些视图不能更新"><a href="#某些视图不能更新" class="headerlink" title="某些视图不能更新"></a>某些视图不能更新</h3><pre><code>包含以下关键字的sql语句：分组函数、distinct、group  by、having、union或者union all
+常量视图
+Select中包含子查询
+join
+from一个不能更新的视图
+where子句的子查询引用了from子句中的表
+</code></pre>
+<h3 id="视图逻辑的更新"><a href="#视图逻辑的更新" class="headerlink" title="视图逻辑的更新"></a>视图逻辑的更新</h3><pre><code>#方式一：
+CREATE OR REPLACE VIEW test_v7
+AS
+SELECT last_name FROM employees
+WHERE employee_id&gt;100;
+
+#方式二:
+ALTER VIEW test_v7
+AS
+SELECT employee_id FROM employees;
+
+SELECT * FROM test_v7;
+</code></pre>
+<h3 id="视图的删除"><a href="#视图的删除" class="headerlink" title="视图的删除"></a>视图的删除</h3><pre><code>DROP VIEW test_v1,test_v2,test_v3;
+</code></pre>
+<h3 id="视图结构的查看"><a href="#视图结构的查看" class="headerlink" title="视图结构的查看"></a>视图结构的查看</h3><pre><code>DESC test_v7;
+SHOW CREATE VIEW test_v7;
+</code></pre>
+<h2 id="存储过程"><a href="#存储过程" class="headerlink" title="存储过程"></a>存储过程</h2><p>含义：一组经过预先编译的sql语句的集合<br>好处：</p>
+<pre><code>1、提高了sql语句的重用性，减少了开发程序员的压力
+2、提高了效率
+3、减少了传输次数
+</code></pre>
+<p>分类：</p>
+<pre><code>1、无返回无参
+2、仅仅带in类型，无返回有参
+3、仅仅带out类型，有返回无参
+4、既带in又带out，有返回有参
+5、带inout，有返回有参
+注意：in、out、inout都可以在一个存储过程中带多个
+</code></pre>
+<h3 id="创建存储过程"><a href="#创建存储过程" class="headerlink" title="创建存储过程"></a>创建存储过程</h3><p>语法：</p>
+<pre><code>create procedure 存储过程名(in|out|inout 参数名  参数类型,...)
+begin
+    存储过程体
+
+end
+</code></pre>
+<p>类似于方法：</p>
+<pre><code>修饰符 返回类型 方法名(参数类型 参数名,...)&#123;
+
+    方法体;
+&#125;
+</code></pre>
+<p>注意</p>
+<pre><code>1、需要设置新的结束标记
+delimiter 新的结束标记
+示例：
+delimiter $
+
+CREATE PROCEDURE 存储过程名(IN|OUT|INOUT 参数名  参数类型,...)
+BEGIN
+    sql语句1;
+    sql语句2;
+
+END $
+
+2、存储过程体中可以有多条sql语句，如果仅仅一条sql语句，则可以省略begin end
+
+3、参数前面的符号的意思
+in:该参数只能作为输入 （该参数不能做返回值）
+out：该参数只能作为输出（该参数只能做返回值）
+inout：既能做输入又能做输出
+</code></pre>
+<p>#调用存储过程<br>    call 存储过程名(实参列表)</p>
+<h2 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h2><h3 id="创建函数"><a href="#创建函数" class="headerlink" title="创建函数"></a>创建函数</h3><p>学过的函数：LENGTH、SUBSTR、CONCAT等<br>语法：</p>
+<pre><code>CREATE FUNCTION 函数名(参数名 参数类型,...) RETURNS 返回类型
+BEGIN
+    函数体
+
+END
+</code></pre>
+<h3 id="调用函数"><a href="#调用函数" class="headerlink" title="调用函数"></a>调用函数</h3><pre><code>SELECT 函数名（实参列表）
+</code></pre>
+<h3 id="函数和存储过程的区别"><a href="#函数和存储过程的区别" class="headerlink" title="函数和存储过程的区别"></a>函数和存储过程的区别</h3><pre><code>        关键字        调用语法    返回值            应用场景
+函数        FUNCTION    SELECT 函数()    只能是一个        一般用于查询结果为一个值并返回时，当有返回值而且仅仅一个
+存储过程    PROCEDURE    CALL 存储过程()    可以有0个或多个        一般用于更新
+</code></pre>
+<h2 id="流程控制结构"><a href="#流程控制结构" class="headerlink" title="流程控制结构"></a>流程控制结构</h2><h3 id="系统变量"><a href="#系统变量" class="headerlink" title="系统变量"></a>系统变量</h3><p>一、全局变量</p>
+<p>作用域：针对于所有会话（连接）有效，但不能跨重启</p>
+<pre><code>查看所有全局变量
+SHOW GLOBAL VARIABLES;
+查看满足条件的部分系统变量
+SHOW GLOBAL VARIABLES LIKE &#39;%char%&#39;;
+查看指定的系统变量的值
+SELECT @@global.autocommit;
+为某个系统变量赋值
+SET @@global.autocommit=0;
+SET GLOBAL autocommit=0;
+</code></pre>
+<p>二、会话变量</p>
+<p>作用域：针对于当前会话（连接）有效</p>
+<pre><code>查看所有会话变量
+SHOW SESSION VARIABLES;
+查看满足条件的部分会话变量
+SHOW SESSION VARIABLES LIKE &#39;%char%&#39;;
+查看指定的会话变量的值
+SELECT @@autocommit;
+SELECT @@session.tx_isolation;
+为某个会话变量赋值
+SET @@session.tx_isolation=&#39;read-uncommitted&#39;;
+SET SESSION tx_isolation=&#39;read-committed&#39;;
+</code></pre>
+<h3 id="自定义变量"><a href="#自定义变量" class="headerlink" title="自定义变量"></a>自定义变量</h3><p>一、用户变量</p>
+<p>声明并初始化：</p>
+<pre><code>SET @变量名=值;
+SET @变量名:=值;
+SELECT @变量名:=值;
+</code></pre>
+<p>赋值：</p>
+<pre><code>方式一：一般用于赋简单的值
+SET 变量名=值;
+SET 变量名:=值;
+SELECT 变量名:=值;
+
+
+方式二：一般用于赋表 中的字段值
+SELECT 字段名或表达式 INTO 变量
+FROM 表;
+</code></pre>
+<p>使用：</p>
+<pre><code>select @变量名;
+</code></pre>
+<p>二、局部变量</p>
+<p>声明：</p>
+<pre><code>declare 变量名 类型 【default 值】;
+</code></pre>
+<p>赋值：</p>
+<pre><code>方式一：一般用于赋简单的值
+SET 变量名=值;
+SET 变量名:=值;
+SELECT 变量名:=值;
+
+
+方式二：一般用于赋表 中的字段值
+SELECT 字段名或表达式 INTO 变量
+FROM 表;
+</code></pre>
+<p>使用：</p>
+<pre><code>select 变量名
+</code></pre>
+<p>二者的区别：</p>
+<pre><code>        作用域            定义位置        语法
+        用户变量    当前会话        会话的任何地方        加@符号，不用指定类型
+        局部变量    定义它的BEGIN END中     BEGIN END的第一句话    一般不用加@,需要指定类型
+
+        
+</code></pre>
+<h3 id="分支"><a href="#分支" class="headerlink" title="分支"></a>分支</h3><p>一、if函数<br>    语法：if(条件，值1，值2)<br>    特点：可以用在任何位置</p>
+<p>二、case语句</p>
+<p>语法：</p>
+<pre><code>情况一：类似于switch
+case 表达式
+when 值1 then 结果1或语句1(如果是语句，需要加分号) 
+when 值2 then 结果2或语句2(如果是语句，需要加分号)
+...
+else 结果n或语句n(如果是语句，需要加分号)
+end 【case】（如果是放在begin end中需要加上case，如果放在select后面不需要）
+
+情况二：类似于多重if
+case 
+when 条件1 then 结果1或语句1(如果是语句，需要加分号) 
+when 条件2 then 结果2或语句2(如果是语句，需要加分号)
+...
+else 结果n或语句n(如果是语句，需要加分号)
+end 【case】（如果是放在begin end中需要加上case，如果放在select后面不需要）
+</code></pre>
+<p>特点：<br>    可以用在任何位置</p>
+<p>三、if elseif语句</p>
+<p>语法：</p>
+<pre><code>if 情况1 then 语句1;
+elseif 情况2 then 语句2;
+...
+else 语句n;
+end if;
+</code></pre>
+<p>特点：<br>    只能用在begin end中！！！！！！！！！！！！！！！</p>
+<p>三者比较：<br>            应用场合<br>    if函数        简单双分支<br>    case结构    等值判断 的多分支<br>    if结构        区间判断 的多分支</p>
+<h3 id="循环"><a href="#循环" class="headerlink" title="循环"></a>循环</h3><p>语法：</p>
+<pre><code>【标签：】WHILE 循环条件  DO
+    循环体
+END WHILE 【标签】;
+</code></pre>
+<p>特点：</p>
+<pre><code>只能放在BEGIN END里面
+
+如果要搭配leave跳转语句，需要使用标签，否则可以不用标签
+
+leave类似于java中的break语句，跳出所在循环！！！
+</code></pre>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/04/06/%E7%AE%97%E6%B3%95/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="一个编程coder">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="JX">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/04/06/%E7%AE%97%E6%B3%95/" class="post-title-link" itemprop="url">算法</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2021-04-06 15:37:31" itemprop="dateCreated datePublished" datetime="2021-04-06T15:37:31+08:00">2021-04-06</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-06-05 15:48:38" itemprop="dateModified" datetime="2021-06-05T15:48:38+08:00">2021-06-05</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Algorithm/" itemprop="url" rel="index"><span itemprop="name">Algorithm</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><p> <a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/">剑指 Offer 10- II. 青蛙跳台阶问题</a> <a href="#jump1-1">题解</a><br><a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/">剑指 Offer 10- I. 斐波那契数列</a> <a href="#jump1-2">题解</a><br><a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/">剑指 Offer 07. 重建二叉树</a> <a href="#jump1-3">题解</a><br><a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/">剑指 Offer 16. 数值的整数次方</a> <a href="#jump1-4">题解</a><br><a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/">剑指 Offer 45. 把数组排成最小的数</a> <a href="#jump1-5">题解</a><br><a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/">剑指 Offer 03. 数组中重复的数字</a> <a href="#jump1-6">题解</a><br><a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/">剑指 Offer 48. 最长不含重复字符的子字符串</a> <a href="#jump1-7">题解</a></p>
+<h1 id="题解："><a href="#题解：" class="headerlink" title="题解："></a>题解：</h1><h4 id="剑指-Offer-10-II-青蛙跳台阶问题："><a href="#剑指-Offer-10-II-青蛙跳台阶问题：" class="headerlink" title="剑指 Offer 10- II. 青蛙跳台阶问题："></a><span id="jump1-1">剑指 Offer 10- II. 青蛙跳台阶问题：</span></h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> leetcode;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 2021/4/1--剑指 Offer 10- II. 青蛙跳台阶问题</span></span><br><span class="line"><span class="comment"> *</span></span><br><span class="line"><span class="comment"> * recursion</span></span><br><span class="line"><span class="comment"> * 2021/4/15--sort题解</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">numWays</span> </span>&#123;</span><br><span class="line"><span class="comment">//    public static int numWays(int n)&#123;</span></span><br><span class="line"><span class="comment">//        //使用递归解法提交会超出时间限制</span></span><br><span class="line"><span class="comment">//        if (n == 1 || n == 0) &#123; //需要添加递归结束条件</span></span><br><span class="line"><span class="comment">//            return 1;</span></span><br><span class="line"><span class="comment">//        &#125;</span></span><br><span class="line"><span class="comment">////        if (n == 2) &#123;</span></span><br><span class="line"><span class="comment">////            return 2;</span></span><br><span class="line"><span class="comment">////        &#125;</span></span><br><span class="line"><span class="comment">//        return (numWays(n-1) + numWays(n-2)) % 1000000007;</span></span><br><span class="line"><span class="comment">//    &#125;</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">numWays</span><span class="params">(<span class="keyword">int</span> n)</span></span>&#123;</span><br><span class="line">        <span class="comment">//解决超时问题，动态规划法</span></span><br><span class="line">        <span class="keyword">int</span> a=<span class="number">1</span>,b=<span class="number">1</span>,res;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; n; i++)&#123;</span><br><span class="line">            res = (a + b) % <span class="number">1000000007</span>;</span><br><span class="line">            a = b;</span><br><span class="line">            b = res;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> a;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span></span>&#123;</span><br><span class="line">        <span class="keyword">int</span> res;</span><br><span class="line">        <span class="keyword">int</span> n = <span class="number">3</span>;</span><br><span class="line">        res = numWays(n);</span><br><span class="line">        System.out.println(res);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="剑指-Offer-10-I-斐波那契数列："><a href="#剑指-Offer-10-I-斐波那契数列：" class="headerlink" title="剑指 Offer 10- I. 斐波那契数列："></a><span id="jump1-2">剑指 Offer 10- I. 斐波那契数列：</span></h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> leetcode;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 2021/4/2--剑指 Offer 10- I. 斐波那契数列</span></span><br><span class="line"><span class="comment"> *20210416-排序练习，动态规划解决</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">fib</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">fib</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">int</span> a=<span class="number">0</span>, b=<span class="number">1</span>,res;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i&lt; n; i++) &#123;</span><br><span class="line">            res = (a + b) % <span class="number">1000000007</span>; <span class="comment">//关键找到转移方程</span></span><br><span class="line">            a = b;</span><br><span class="line">            b = res;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> a;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span></span>&#123;</span><br><span class="line">        <span class="keyword">int</span> res;</span><br><span class="line">        <span class="keyword">int</span> n = <span class="number">3</span>;</span><br><span class="line">        res = fib(n);</span><br><span class="line">        System.out.println(res);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+<h4 id="剑指-Offer-07-重建二叉树："><a href="#剑指-Offer-07-重建二叉树：" class="headerlink" title="剑指 Offer 07. 重建二叉树："></a><span id="jump1-3">剑指 Offer 07. 重建二叉树：</span></h4><p>思路一：递归<br>使用哈希表来帮助我们快速地定位根节点。对于哈希映射中的每个键值对，键表示一个元素（节点的值），值表示其在中序遍历中的出现位置。在构造二叉树的过程之前，我们可以对中序遍历的列表进行一遍扫描，就可以构造出这个哈希映射。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> leetcode;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.HashMap;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 20210408--剑指 Offer 07. 重建二叉树</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">buildTree</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> HashMap&lt;Integer, Integer&gt; indexMap;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> TreeNode <span class="title">myBuildTree</span><span class="params">(<span class="keyword">int</span>[] preorder, <span class="keyword">int</span>[] inorder, <span class="keyword">int</span> preorder_left, <span class="keyword">int</span> preorder_right, <span class="keyword">int</span> inorder_left, <span class="keyword">int</span> inorder_right)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (preorder_left &gt; preorder_right) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 前序遍历中的第一个节点就是根节点</span></span><br><span class="line">        <span class="keyword">int</span> preorder_root = preorder_left;</span><br><span class="line">        <span class="comment">// 在中序遍历中定位根节点</span></span><br><span class="line">        <span class="keyword">int</span> inorder_root = indexMap.get(preorder[preorder_root]);</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 先把根节点建立出来</span></span><br><span class="line">        TreeNode root = <span class="keyword">new</span> TreeNode(preorder[preorder_root]);</span><br><span class="line">        <span class="comment">// 得到左子树中的节点数目</span></span><br><span class="line">        <span class="keyword">int</span> size_left_subtree = inorder_root - inorder_left;</span><br><span class="line">        <span class="comment">// 递归地构造左子树，并连接到根节点</span></span><br><span class="line">        <span class="comment">// 先序遍历中「从 左边界+1 开始的 size_left_subtree」个元素就对应了中序遍历中「从 左边界 开始到 根节点定位-1」的元素</span></span><br><span class="line">        root.left = myBuildTree(preorder, inorder, preorder_left + <span class="number">1</span>, preorder_left + size_left_subtree, inorder_left, inorder_root - <span class="number">1</span>);</span><br><span class="line">        <span class="comment">// 递归地构造右子树，并连接到根节点</span></span><br><span class="line">        <span class="comment">// 先序遍历中「从 左边界+1+左子树节点数目 开始到 右边界」的元素就对应了中序遍历中「从 根节点定位+1 到 右边界」的元素</span></span><br><span class="line">        root.right = myBuildTree(preorder, inorder, preorder_left + size_left_subtree + <span class="number">1</span>, preorder_right, inorder_root + <span class="number">1</span>, inorder_right);</span><br><span class="line">        <span class="keyword">return</span> root;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> TreeNode <span class="title">buildTree</span><span class="params">(<span class="keyword">int</span>[] preorder, <span class="keyword">int</span>[] inorder)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> n = preorder.length;</span><br><span class="line">        <span class="comment">// 构造哈希映射，帮助我们快速定位根节点</span></span><br><span class="line">        indexMap = <span class="keyword">new</span> HashMap&lt;Integer, Integer&gt;();</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">            indexMap.put(inorder[i], i);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> myBuildTree(preorder, inorder, <span class="number">0</span>, n - <span class="number">1</span>, <span class="number">0</span>, n - <span class="number">1</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">int</span> preorder[] = &#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">4</span>, <span class="number">7</span>, <span class="number">3</span>, <span class="number">5</span>, <span class="number">6</span>, <span class="number">8</span>&#125;;</span><br><span class="line">        <span class="keyword">int</span> inorder[] = &#123;<span class="number">4</span>, <span class="number">7</span>, <span class="number">2</span>, <span class="number">1</span>, <span class="number">5</span>, <span class="number">3</span>, <span class="number">8</span>, <span class="number">6</span>&#125;;</span><br><span class="line">        TreeNode treeNode = buildTree(preorder, inorder);</span><br><span class="line">        System.out.println(treeNode);</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h4 id="剑指-Offer-16-数值的整数次方："><a href="#剑指-Offer-16-数值的整数次方：" class="headerlink" title="剑指 Offer 16. 数值的整数次方："></a><span id="jump1-4">剑指 Offer 16. 数值的整数次方：</span></h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> leetcode;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 20210415--剑指 Offer 16. 数值的整数次方</span></span><br><span class="line"><span class="comment"> * 使用递归</span></span><br><span class="line"><span class="comment"> * 如果n==0,返回1</span></span><br><span class="line"><span class="comment"> * 如果n&lt;0</span></span><br><span class="line"><span class="comment"> * 如果n为奇数</span></span><br><span class="line"><span class="comment"> * 如果n为偶数</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">myPow</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">double</span> <span class="title">myPow</span><span class="params">(<span class="keyword">double</span> x, <span class="keyword">int</span> n)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (n == <span class="number">0</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">        &#125; <span class="keyword">else</span> <span class="keyword">if</span> (n &lt; <span class="number">0</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">1</span> / (x * myPow(x, -n-<span class="number">1</span>));</span><br><span class="line">        &#125; <span class="keyword">else</span> <span class="keyword">if</span> (n % <span class="number">2</span> == <span class="number">1</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> x * myPow(x, n-<span class="number">1</span>);</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            <span class="keyword">return</span> myPow(x *x,n / <span class="number">2</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span> </span>&#123;</span><br><span class="line">        <span class="keyword">double</span> res;</span><br><span class="line"></span><br><span class="line">        res = myPow(<span class="number">2</span>,<span class="number">10</span>);</span><br><span class="line">        System.out.println(<span class="string">&quot;res: &quot;</span> +res);</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h4 id="剑指-Offer-45-把数组排成最小的数："><a href="#剑指-Offer-45-把数组排成最小的数：" class="headerlink" title="剑指 Offer 45. 把数组排成最小的数："></a><span id="jump1-5">剑指 Offer 45. 把数组排成最小的数：</span></h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> leetcode;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 20210421--剑指 Offer 45. 把数组排成最小的数</span></span><br><span class="line"><span class="comment"> *</span></span><br><span class="line"><span class="comment"> *</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">minNumber</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">        String res = <span class="string">&quot;&quot;</span>;</span><br><span class="line">        <span class="keyword">int</span>[] num = &#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">4</span>, <span class="number">7</span>, <span class="number">3</span>, <span class="number">5</span>, <span class="number">6</span>, <span class="number">8</span>&#125;;</span><br><span class="line">        res = minNumber(num);</span><br><span class="line">        System.out.println(<span class="string">&quot;res: &quot;</span> + res);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> String <span class="title">minNumber</span><span class="params">(<span class="keyword">int</span>[] nums)</span> </span>&#123;</span><br><span class="line">        String[] strs = <span class="keyword">new</span> String[nums.length];</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; nums.length; i++) &#123;</span><br><span class="line">            strs[i] = String.valueOf(nums[i]);</span><br><span class="line">        &#125;</span><br><span class="line">        quickSort(strs, <span class="number">0</span>, strs.length - <span class="number">1</span>);</span><br><span class="line">        StringBuilder res = <span class="keyword">new</span> StringBuilder();</span><br><span class="line">        <span class="keyword">for</span> (String s : strs)&#123;</span><br><span class="line">            res.append(s);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> res.toString();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">quickSort</span><span class="params">(String[] strs, <span class="keyword">int</span> low, <span class="keyword">int</span> high)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (low &lt; high) &#123;</span><br><span class="line">            <span class="keyword">int</span> middle = getMiddle(strs, low, high);</span><br><span class="line">            quickSort(strs, low, middle - <span class="number">1</span>); <span class="comment">//左递归</span></span><br><span class="line">            quickSort(strs, middle + <span class="number">1</span>, high); <span class="comment">//右递归</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">getMiddle</span><span class="params">(String[] strs, <span class="keyword">int</span> low, <span class="keyword">int</span> high)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//数组的第一个数为基准元素</span></span><br><span class="line">        String temp = strs[low];</span><br><span class="line">        <span class="keyword">while</span> (low &lt; high) &#123;</span><br><span class="line">            <span class="comment">//从后向前找比基准小的数</span></span><br><span class="line">            <span class="keyword">while</span> (low &lt; high &amp;&amp; (strs[high] + temp).compareTo(temp + strs[high]) &gt;= <span class="number">0</span>) &#123;</span><br><span class="line">                high--;</span><br><span class="line">                <span class="comment">//把比基准小的数移到低端</span></span><br><span class="line">                strs[low] = strs[high];</span><br><span class="line">                <span class="comment">//从前向后找比基准大的数</span></span><br><span class="line">                &#125;</span><br><span class="line"></span><br><span class="line">                <span class="keyword">while</span> (low &lt; high &amp;&amp; (strs[low] + temp).compareTo(temp + strs[low]) &lt;= <span class="number">0</span>) &#123;</span><br><span class="line">                    low++;</span><br><span class="line">                &#125;</span><br><span class="line">                <span class="comment">//把比基准大的数移动到高端</span></span><br><span class="line">                strs[high] = strs[low];</span><br><span class="line">            &#125;</span><br><span class="line">            strs[low] = temp;</span><br><span class="line">            <span class="keyword">return</span> low;</span><br><span class="line">        &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+<h4 id="剑指-Offer-03-数组中重复的数字："><a href="#剑指-Offer-03-数组中重复的数字：" class="headerlink" title="剑指 Offer 03. 数组中重复的数字："></a><span id="jump1-6">剑指 Offer 03. 数组中重复的数字：</span></h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> leetcode;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.HashSet;</span><br><span class="line"><span class="keyword">import</span> java.util.Set;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 20210530--数组中重复的数字</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">findRepeatNumber</span><span class="params">(<span class="keyword">int</span>[] nums)</span> </span>&#123;</span><br><span class="line">        Set&lt;Integer&gt; set = <span class="keyword">new</span> HashSet&lt;Integer&gt;();</span><br><span class="line">        <span class="keyword">int</span> repeat = -<span class="number">1</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> num : nums) &#123;</span><br><span class="line">            <span class="keyword">if</span> (!set.add(num)) &#123;</span><br><span class="line">                repeat = num;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> repeat;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span>[] test = <span class="keyword">new</span> <span class="keyword">int</span>[]&#123;<span class="number">2</span>,<span class="number">3</span>,<span class="number">1</span>,<span class="number">0</span>,<span class="number">2</span>,<span class="number">3</span>&#125;;</span><br><span class="line">        System.out.println(findRepeatNumber(test));</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h4 id="剑指-Offer-48-最长不含重复字符的子字符串："><a href="#剑指-Offer-48-最长不含重复字符的子字符串：" class="headerlink" title="剑指 Offer 48. 最长不含重复字符的子字符串："></a><span id="jump1-7">剑指 Offer 48. 最长不含重复字符的子字符串：</span></h4><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> leetcode;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.HashMap;</span><br><span class="line"><span class="keyword">import</span> java.util.Map;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 20210530--最长不含重复字符的子字符串</span></span><br><span class="line"><span class="comment"> * 动态规划</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">lengthOfLongestSubstring</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        String nums =<span class="string">&quot;abcaadef&quot;</span>;</span><br><span class="line">        <span class="keyword">int</span> res = <span class="number">0</span>;</span><br><span class="line">        res = lengthOfLongestSubstring(nums);</span><br><span class="line">        System.out.println(res);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">lengthOfLongestSubstring</span><span class="params">(String s)</span> </span>&#123;</span><br><span class="line">        Map&lt;Character, Integer&gt; dic = <span class="keyword">new</span> HashMap&lt;&gt;();</span><br><span class="line">        <span class="keyword">int</span> res = <span class="number">0</span>, tmp = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">0</span>; j &lt; s.length(); j++) &#123;</span><br><span class="line">            <span class="keyword">int</span> i = dic.getOrDefault(s.charAt(j),-<span class="number">1</span>);<span class="comment">// 获取索引 i</span></span><br><span class="line">            dic.put(s.charAt(j),j);<span class="comment">// 更新哈希表</span></span><br><span class="line">            tmp = tmp &lt; j - <span class="number">1</span> ? tmp + <span class="number">1</span> : j - i;<span class="comment">// dp[j - 1] -&gt; dp[j]</span></span><br><span class="line">            res = Math.max(res, tmp);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> res;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">一个编程coder</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://weibo.com/u/2089657057/home?wvr=5" title="Weibo → https:&#x2F;&#x2F;weibo.com&#x2F;u&#x2F;2089657057&#x2F;home?wvr&#x3D;5" rel="noopener" target="_blank"><i class="fab fa-weibo fa-fw"></i>Weibo</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://github.com/jingxuanjiangjx" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;jingxuanjiangjx" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">一个编程coder</span>
+</div>
+
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+  
+  
+  <script type="text/javascript"
+  color="0,0,255" opacity='0.7' zIndex="-2" count="99" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+ 
+
+  
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","model":{"jsonPath":"/live2dw/assets/tororo.model.json"},"display":{"position":"right","width":240,"height":480},"mobile":{"show":true},"react":{"opacityDefault":1,"opacityOnHover":1},"log":false,"tagMode":false});</script></body>
+</html>
